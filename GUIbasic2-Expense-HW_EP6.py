@@ -6,7 +6,7 @@ import csv
 from datetime import datetime
 
 GUI = Tk()
-GUI.title('โปรแกรมบัยทึกค่าใช้จ่าย  by Chiang') # Title of program
+GUI.title('โปรแกรมบัยทึกค่าใช้จ่าย V.1.0 by Chiang') # Title of program
 GUI.geometry('700x600+50+0') # (+50+0) insert to specify fixed position on X-axis and Y-axis 
 
 #B1 = Button(GUI,text='Hello')
@@ -23,6 +23,7 @@ filemenu.add_command(label='Import CSV')
 filemenu.add_command(label='Export to Googlesheet')
 # Help Menu
 def About():
+    print('About Manu')
     messagebox.showinfo('About','สวัสดีครับ โปรแกรมนี้คือโปรแกรมบันทึกข้อมูล\nสนใจบริจาคเราไหม?')
 
 
